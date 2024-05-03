@@ -6,7 +6,7 @@ graphs that the user can compare to make different analysis.
 """
 import streamlit as st
 import pandas as pd
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import folium
 from folium.plugins import HeatMap
 from streamlit_folium import folium_static
